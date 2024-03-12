@@ -7,14 +7,12 @@ import React from 'react'
 const Navbar = () => {
     return (
         <>
-            <Image src="/user.png" alt='user' width={10} height={10} className='inline-block lg:hidden'>
-
-            </Image>
+          
 
 
             <nav className='border-2 w-full   flex justify-between  border-red-500 base-100   relative z-30 p-3'>
                 <Link href={'/'}>
-                    <Image src="/image 2.png" alt='logo' width={74} height={29} className=''>
+                    <Image src="/image 2.png" alt='logo' width={74} height={29} className='lg:ml-40'>
                     </Image>
                 </Link>
                 <div className='flex justify-items-center mr-36'>
