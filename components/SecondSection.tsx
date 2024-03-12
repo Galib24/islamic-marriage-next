@@ -9,7 +9,7 @@ const SecondSection = () => {
                     <p className='font-gumela'>
                         Lorem ipsum dolor sit amet consectetur. Posuere laoreet donec nibh quam. Tempus leo accumsan non iaculis.</p> <hr /> <p className="ml-10 font-gumela">
                         Nunc ullamcorper diam nibh eleifend eu vitae. Felis ipsum vivamus et egestas orci leo
-                    </p> <hr />   <p className="ml-28 font-gumela">
+                    </p> <hr />   <p className="text-center font-gumela">
                         Nunc ullamcorper diam nibh eleifend eu vitae. orci leo
                     </p>
                 </div>

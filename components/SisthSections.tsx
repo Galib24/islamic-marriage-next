@@ -28,7 +28,7 @@ const SisthSections = () => {
 
 
             <div
-                className='mt-10 flex justify-center justify-items-center  h-screen'>
+                className='mt-10 flex justify-center justify-items-center'>
                 <div className='container'>
                 <Swiper
                     slidesPerView={5}

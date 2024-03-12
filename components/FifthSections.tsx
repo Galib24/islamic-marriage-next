@@ -12,7 +12,7 @@ const FifthSections = () => {
 
       <div className="flex justify-center mb-5 mt-5">
         <div>
-          <p className='font-gumela ml-28'>
+          <p className='font-gumela tect-center'>
             "Love doesn't make the world go around. Love is what makes the ride worthwhile." Millions of Active Matrimonial
           </p> <hr />   <p className="ml-28 font-gumela">
             users around the world find their true love and partners from this site. We are always there to help and find you the
