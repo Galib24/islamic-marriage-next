@@ -10,6 +10,7 @@ import { on } from 'events';
 const SisthSections = () => {
     return (
         <>
+        <div className='hidden lg:block'>
 
             <div className='flex justify-center'>
                 <h2 style={{ fontSize: '35px', fontWeight: '700' }} className='font-gumela text-[#522B79] mt-16'> New Member</h2>
@@ -85,7 +86,7 @@ const SisthSections = () => {
                 </Swiper>
                 </div>
             </div>
-
+            </div>
 
         </>
     )

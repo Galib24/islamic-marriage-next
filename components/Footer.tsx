@@ -7,7 +7,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <div style={{ width: '1510px', height: '502px', padding: '50px, 0px 50px, 0px', gap: '140px' }} className='bg-[#E6E6E6] mt-10 p-10 mx-auto'>
+      <div style={{ width: '1510px', height: '502px', padding: '50px, 0px 50px, 0px', gap: '140px' }} className='bg-[#E6E6E6] mt-10 overflow-hidden p-10 mx-auto hidden lg:block'>
 
 
         {/* main part */}

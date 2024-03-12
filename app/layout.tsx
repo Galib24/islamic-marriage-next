@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="max-w-screen-3xl w-full overflow-y-auto">
+      <body className="max-w-screen-3xl w-full overflow-x-hidden">
         <Navbar></Navbar>
         <main className="relative overflow-hidden">
           {children}

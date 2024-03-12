@@ -2,7 +2,9 @@ import React from 'react'
 
 const FirstSection = () => {
   return (
- <div className="bg-gray-300 bg-opacity-60 w-full h-full relative flex justify-center items-center">
+
+    <div className="hidden lg:block">
+      <div className="bg-gray-300 bg-opacity-60 w-full h-full relative flex justify-center items-center ">
         <img src="/Rectangle 1.png" alt='user' style={{ color: '#DBDBDB' }} className="w-full opacity-60 h-[550px] "></img>
 
         <div className="bg-white w-96 h-80 right-44 top-24 absolute rounded-md shadow-lg">
@@ -58,6 +60,7 @@ const FirstSection = () => {
 
 
       </div>
+    </div>
   )
 }
 

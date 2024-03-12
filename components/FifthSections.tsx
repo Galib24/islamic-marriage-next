@@ -4,6 +4,7 @@ import React from 'react'
 const FifthSections = () => {
   return (
     <>
+    <div className='hidden lg:block'>
       <div className='flex justify-center'>
         <h2 style={{ fontSize: '35px', fontWeight: '700' }} className='font-gumela text-[#522B79]'> Trusted by Millions</h2>
       </div>
@@ -30,6 +31,7 @@ const FifthSections = () => {
           <Image src="/Frame 2033.png" alt='user' width={100} height={100} className='w-44'></Image>
 
         </div>
+      </div>
       </div>
     </>
   )

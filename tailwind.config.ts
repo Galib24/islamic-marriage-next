@@ -13,6 +13,8 @@ const config: Config = {
     }
   },
 
+  
+
   daisyui: {
     themes: [
       {
