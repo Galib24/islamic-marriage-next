@@ -11,11 +11,11 @@ const FourthSections = () => {
         <>
             <div className='hidden lg:block'>
                 <div
-                    className='mt-10 flex justify-center justify-items-center mb-10 '>
+                    className=' flex justify-center justify-items-center  p-24'>
                     <div className='container'>
                         <Swiper
                             slidesPerView={5}
-                            spaceBetween={0}
+                            spaceBetween={50}
 
                             pagination={{
                                 clickable: true,
@@ -23,6 +23,7 @@ const FourthSections = () => {
 
                             }}
                             modules={[Pagination]}
+                            
                             className="mySwiper"
                             breakpoints={{
                                 0: {
@@ -34,36 +35,63 @@ const FourthSections = () => {
                                     spaceBetween: 5,
                                 },
                                 840: {
-                                    slidesPerView: 4,
+                                    slidesPerView: 5,
                                 }
                             }}
                         >
                             <SwiperSlide>
-                                <Image src="/Premium (1).png" alt='user' width={100} height={100} className='w-6/12'></Image>
+                                <div className='w-60'>
+
+                                    <Image src="/Premium (1).png" alt='user' width={100} height={100} className='w-full  p-10'></Image>
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/Premium.png" alt='user' width={100} height={100} className='w-6/12'></Image>
+                                <div className='w-60'>
+
+                                    <Image src="/Premium (1).png" alt='user' width={100} height={100} className='w-full  p-10'></Image>
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/Premium.png" alt='user' width={100} height={100} className='w-6/12'></Image>
+                                <div className='w-60'>
+
+                                    <Image src="/Premium (1).png" alt='user' width={100} height={100} className='w-full  p-10'></Image>
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/Premium.png" alt='user' width={100} height={100} className='w-6/12'></Image>
+                                <div className='w-60'>
+
+                                    <Image src="/Premium (1).png" alt='user' width={100} height={100} className='w-full  p-10'></Image>
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/Premium.png" alt='user' width={100} height={100} className='w-6/12'></Image>
+                                <div className='w-60'>
+
+                                    <Image src="/Premium (1).png" alt='user' width={100} height={100} className='w-full  p-10'></Image>
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/Premium.png" alt='user' width={100} height={100} className='w-6/12'></Image>
+                                <div className='w-60'>
+
+                                    <Image src="/Premium (1).png" alt='user' width={100} height={100} className='w-full  p-10'></Image>
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/Premium.png" alt='user' width={100} height={100} className='w-6/12'></Image>
+                                <div className='w-60'>
+
+                                    <Image src="/Premium (1).png" alt='user' width={100} height={100} className='w-full  p-10'></Image>
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/Premium.png" alt='user' width={100} height={100} className='w-6/12'></Image>
+                                <div className='w-60'>
+
+                                    <Image src="/Premium (1).png" alt='user' width={100} height={100} className='w-full  p-10'></Image>
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Image src="/Premium.png" alt='user' width={100} height={100} className='w-6/12'></Image>
+                                <div className='w-60'>
+
+                                    <Image src="/Premium (1).png" alt='user' width={100} height={100} className='w-full  p-10'></Image>
+                                </div>
                             </SwiperSlide>
                         </Swiper>
 

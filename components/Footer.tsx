@@ -33,7 +33,7 @@ const Footer = () => {
 
 
           <div>
-            <h2 className='font-bold mt-5'>Contact</h2>
+            <h2 className='font-bold mt-5 mb-3'>Contact</h2>
 
             <div className='flex'>
               <FaPhoneAlt className='mt-1 mr-4'></FaPhoneAlt>
