@@ -11,25 +11,8 @@ const SisthSections = () => {
     return (
         <>
             <div className='hidden lg:block'>
-
-                <div className='flex justify-center'>
-                    <h2 style={{ fontSize: '35px', fontWeight: '700' }} className='font-gumela text-[#522B79] mt-16'> New Member</h2>
-                </div>
-
-
-
-                <div className="flex justify-center mb-5 mt-5">
-                    <div>
-                        <p className='font-gumela ml-28'>
-                            Every user registered on Muslim Marriagebd is verified via photo and mobile phone so you don’t have to worry how real or fake anyone is..
-                        </p>  <hr /> <p className="text-center font-gumela">real or fake anyone is..</p>
-                    </div>
-
-                </div>
-
-
                 <div
-                    className=' flex justify-center justify-items-center px-24'>
+                    className=' flex justify-center justify-items-center mt-5  px-72'>
                     <div className='container'>
                         <Swiper
                             slidesPerView={5}
@@ -41,7 +24,7 @@ const SisthSections = () => {
 
                             }}
                             modules={[Pagination]}
-                            
+
                             className="mySwiper"
                             breakpoints={{
                                 0: {
@@ -115,6 +98,7 @@ const SisthSections = () => {
 
                     </div>
                 </div>
+
             </div>
 
         </>

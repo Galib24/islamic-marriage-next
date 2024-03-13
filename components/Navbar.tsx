@@ -20,7 +20,7 @@ const Navbar = () => {
 
 
 
-            <nav className='border-1 w-full   flex justify-between  base-100   relative z-30 p-5'>
+            <nav className='border-1 w-full   flex justify-between  base-100   relative z-30 p-1 py-2'>
                 <Link href={'/'}>
                     <Image
                         src="/image 2.png"
@@ -30,19 +30,20 @@ const Navbar = () => {
                         className='hidden lg:block lg:ml-40'
                     />
                 </Link>
-                <div className='flex justify-items-center mr-36'>
+                <div className='flex justify-items-center mr-40'>
                     <ul className='hidden mr-5 h-full gap-12 lg:flex mt-5 '>
                         {NAV_LINKS.map((link) => (
                             <Link style={{ color: '#0B0B0B' }} href={link.href} key={link.key}
-                                className='text-sm font-gumela cursor-pointer pb-1.5 '>
+                            
+                                className=' font-gumela cursor-pointer pb-1.5 text-sm '>
                                 {link.label}
                             </Link>
                         ))}
                     </ul>
 
                     <div className='lg:flex justify-center font-gumela hidden'>
-                        <button style={{ borderRadius: '8px', border: '1px solid #2D1843', gap: '10px' }} className='m-3 px-3 border flex text-[#6D194F] justify-center text-sm items-center'>
-                            <Image src="/user.png" alt='user' width={10} height={10} className='lg:inline hidden md:inline'></Image>
+                        <button style={{ borderRadius: '8px', border: '1px solid #2D1843', gap: '10px' }} className='m-3 px-3 border flex text-[#6D194F] text-sm justify-center  items-center'>
+                            <Image src="/user.png" alt='user' width={12} height={12} className='lg:inline hidden md:inline'></Image>
                             Profile
                         </button>
                     </div>

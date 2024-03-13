@@ -13,9 +13,9 @@ const FirstSection = () => {
 
 
             <div className="flex justify-items-center content-center gap-4 mt-6">
-              <h2 className="ml-9 mt- font-gumela ">Types of Biodata</h2>
-              <div style={{ border: '1px solid #ced4da' }} className='w-fit ml-2  bg-[#3A1F56] text-white rounded-md cursor-pointer'>
-                <select style={{ padding: '10px 30px' }} className='bg-transparent  cursor-pointer'>
+              <h2 className="ml-9 mt-2 font-gumela text-sm  w-[120px] ">Types of Biodata</h2>
+              <div style={{ border: '1px solid #ced4da' }} className='w-fit   bg-[#3A1F56] text-white rounded-md cursor-pointer'>
+                <select style={{ padding: '10px 40px' }} className='bg-transparent  cursor-pointer'>
                   <option>All BioData</option>
                   <option>bio</option>
                 </select>
@@ -24,9 +24,9 @@ const FirstSection = () => {
 
 
             <div className="flex justify-items-center content-center gap-4 mt-5">
-              <h2 className="ml-9 mt-2 font-gumela ">Marital Status</h2>
-              <div className='w-fit ml-6 '>
-                <select style={{ padding: '10px 40px' }} className=' bg-[#3A1F56] text-white rounded-md cursor-pointer'>
+              <h2 className="ml-9 mt-2 font-gumela text-sm  w-[120px]">Marital Status</h2>
+              <div className='w-fit  '>
+                <select style={{ padding: '10px 46px' }} className=' bg-[#3A1F56] text-white rounded-md cursor-pointer'>
                   <option>All Status</option>
                   <option>Status</option>
                 </select>
@@ -35,16 +35,16 @@ const FirstSection = () => {
 
 
             <div className="flex justify-center mt-5 gap-4">
-              <h2 className="mt-2 font-gumela ">Bio Data Number</h2>
+              <h2 className="mt-2 font-gumela text-sm   w-[120px]">Bio Data Number</h2>
               <input
                 type="number"
-                className="border shadow-xl border-gray-400 border-medium rounded-md py-2"
+                className="border shadow-xl border-gray-400 border-medium rounded-md py-2 "
 
               />
             </div>
 
-            <div className='flex justify-center font-gumela mt-5 ml-32'>
-              <button style={{ borderRadius: '8px', border: '1px solid #2D1843', gap: '10px' }} className='py-2 font-gumela  px-16 ml-1 hover:bg-[#3A1F56] hover:text-white border flex text-[#0B0B0B] transition justify-center text-sm items-center'>
+            <div className='flex justify-end font-gumela mt-5 '>
+              <button style={{ borderRadius: '8px', border: '1px solid #2D1843', gap: '10px' }} className='py-2 font-gumela  px-16 ml-1 hover:bg-[#3A1F56] hover:text-white  flex text-[#0B0B0B] mr-8 transition justify-center  items-center  w-[180px] '>
 
                 Search
               </button>

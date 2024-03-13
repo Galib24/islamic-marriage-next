@@ -21,7 +21,7 @@ const SecondSection = () => {
 
                 <div className="flex justify-center">
                     <div className='flex justify-center font-gumela mt-5 ml-5'>
-                        <button style={{ borderRadius: '8px', border: '1px solid #2D1843', gap: '10px' }} className='py-2 font-gumela  px-10 ml-1  hover:bg-[#3A1F56] hover:text-white border flex text-[#0B0B0B] transition justify-center text-sm items-center'>
+                        <button style={{ borderRadius: '8px', border: '1px solid #2D1843', gap: '10px' }} className='py-2 font-gumela  px-3 ml-1  hover:bg-[#3A1F56] hover:text-white border flex text-[#0B0B0B] transition justify-center  items-center'>
 
                             Create your own biodata
                         </button>
@@ -29,7 +29,7 @@ const SecondSection = () => {
                 </div>
                 <div className="flex justify-center">
                     <div className='flex justify-center font-gumela mt-5 ml-5'>
-                        <button style={{ borderRadius: '8px', border: '1px solid #2D1843', gap: '10px' }} className='py-2 font-gumela  px-10 ml-1  hover:bg-[#3A1F56] hover:text-white border flex text-[#0B0B0B] transition justify-center text-sm items-center'>
+                        <button style={{ borderRadius: '8px', border: '1px solid #2D1843', gap: '10px' }} className='py-2 font-gumela  px-3 ml-1  hover:bg-[#3A1F56] hover:text-white border flex text-[#0B0B0B] transition justify-center  items-center'>
 
                             How to create your biodata (Video)
                         </button>
