@@ -6,7 +6,7 @@ const FifthSections = () => {
     <>
     <div className='hidden lg:block'>
       <div className='flex justify-center'>
-        <h2 style={{ fontSize: '35px', fontWeight: '700' }} className='font-gumela text-[#522B79]'> Trusted by Millions</h2>
+        <h2 style={{ fontSize: '35px', fontWeight: '700' }} className='font-gumela text-[#522B79] mt-5'> Trusted by Millions</h2>
       </div>
 
 

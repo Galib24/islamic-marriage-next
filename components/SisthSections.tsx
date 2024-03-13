@@ -29,7 +29,7 @@ const SisthSections = () => {
 
 
                 <div
-                    className=' flex justify-center justify-items-center p-24'>
+                    className=' flex justify-center justify-items-center px-24'>
                     <div className='container'>
                         <Swiper
                             slidesPerView={5}

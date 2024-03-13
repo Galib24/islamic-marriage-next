@@ -11,7 +11,7 @@ const FourthSections = () => {
         <>
             <div className='hidden lg:block'>
                 <div
-                    className=' flex justify-center justify-items-center  p-24'>
+                    className=' flex justify-center justify-items-center mt-5  px-24'>
                     <div className='container'>
                         <Swiper
                             slidesPerView={5}
