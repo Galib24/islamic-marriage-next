@@ -11,12 +11,12 @@ const SisthSections = () => {
     return (
         <>
             <div>
-                <h2 style={{ fontSize: '35px', fontWeight: '700' }} className='text-center text-[#522B79] mt-16 mb-5'>New Member</h2>
+                <h2 style={{ fontSize: '35px', fontWeight: '700' }} className='text-center text-[#522B79] hidden lg:block mt-16 mb-5'>New Member</h2>
             </div>
 
 
             <div className="flex justify-center  mt-5">
-                <div>
+                <div className='hidden lg:block'>
                     <p className='font-gumela tect-center'>
                         Every user registered on Muslim Marriagebd is verified via photo and mobile phone so you don’t have to worry how
                     </p>
