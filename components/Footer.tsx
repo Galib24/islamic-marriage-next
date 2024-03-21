@@ -69,12 +69,12 @@ const Footer = () => {
                 </div>
                 <div className='h-10 w-10 bg-[#1DA1F2] rounded-md flex justify-center'>
                   <div className=' mt-2'>
-                    <Image src="/vector (1).png" alt='user' width={25} height={25}></Image>
+                    <Image src="/vector (1).png" alt='user' width={26} height={26}></Image>
                   </div>
                 </div>
                 <div className='h-10 w-10  bg-gradient-to-b from-yellow-300 via-pink-600 to-blue-600 rounded-md flex justify-center'>
                   <div className=' mt-2'>
-                    <Image src="/vector (2).png" alt='user' width={25} height={25}></Image>
+                    <Image src="/vector (2).png" alt='user' width={26} height={26}></Image>
                   </div>
                 </div>
               </div>
